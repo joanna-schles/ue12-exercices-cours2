@@ -1,6 +1,7 @@
 # %%
 # À ex'écuter en premier
 import numpy as np
+# test 
 
 # %% [markdown]
 # # Niveau 1 : Création de tableaux simples
@@ -251,7 +252,6 @@ print(swap_first_rows(np.array([[1, 2], [3, 4], [5, 6]])))  # attendu: [[3 4]
 # - 0 pour tous les autres éléments
 #
 # Compléter la fonction `funny_checkerboard` pour qu'elle retourne une matrice "damier" contenant les valeurs décrites ci-dessus.
-
 
 # %%
 def funny_checkerboard(size):
